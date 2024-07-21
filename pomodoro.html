@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body style="background-image: url(Assets/pomodoro.gif); background-repeat:no-repeat; background-attachment: fixed; background-size: cover; background-position: center;">
+
+    <div class="centerer">
+        <div class="container">
+
+            <button style="background-color: transparent; color:black; box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.75); width: 70%" id="one-hour">1-Hour</button>
+            <button style="background-color: transparent; color:black; box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.75); width: 70%" id="two-hour">2-Hour</button>
+            <button style="background-color: transparent; color:black; box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.75); width: 70%" id="three-hour">3-Hour</button>
+            <button style="background-color: transparent; color:black; box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.75); width: 70%" id="five-hour">5-Hour</button>
+            <button style="background-color: transparent; color:black; box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.75); width: 70%" id="eight-hour">8-Hour</button>
+
+        </div>
+
+    </div>
+
+    <div class="pomodoro-modal" id="pomodoro-modal">
+
+        <div class="pomodoro-modal-content"  id="pomodoro-modal-content">
+            <div id="player"></div>
+            <div class="pomodoro-button-container">
+                <button id="play-pause-button" class="pomodoro-button">
+                    <i class="fa-solid fa-circle fa-beat"></i>
+                </button>
+
+                <button id="back-button" class="pomodoro-button">
+                    <i class="fa-solid fa-right-from-bracket fa-beat"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <button id="exit-page-button" class="exit-page-button">
+        <i class="fa-solid fa-right-from-bracket fa-beat"></i>
+    </button>
+
+
+    <script src="pomodoro.js"></script>
+
+</body>
+
+
+
+
+</html>
