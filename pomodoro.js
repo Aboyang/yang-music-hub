@@ -105,5 +105,5 @@ backBtn.onclick = ()=> {
 }
 
 exitBtn.onclick = ()=> {
-    document.location = "main.html"
+    document.location = "index.html"
 }

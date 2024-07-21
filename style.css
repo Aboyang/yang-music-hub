@@ -49,12 +49,12 @@ iframe {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 78%;
 }
 
 .thumbnail-content {
     
-    width: 200px;
+    width: 40%;
     align-items: center;
     justify-content: center;
     padding: 2px; 
