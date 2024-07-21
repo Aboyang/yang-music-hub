@@ -38,7 +38,7 @@ img {
 
 iframe {
     width: 90%;
-    height: 75%;
+    height: 70%;
     border: 0px;
     border-radius: 30px;
     pointer-events: none;
@@ -147,6 +147,7 @@ iframe {
     width: 80vw;
     height: 80vw;
     max-height: 80vh;
+    gap: 5px;
 }
 
 .lofi-button-container {
@@ -163,6 +164,7 @@ iframe {
     border-radius: 25px;
 
     width: 90%;
+    height: 20%
 
 }
 
@@ -171,7 +173,7 @@ iframe {
     border: 0px;
     border-radius: 20px;
     width: 30%;
-    height: 50px;
+    height: 90%;
 }
 
 .jazz-centerer {
