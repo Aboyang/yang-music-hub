@@ -205,6 +205,7 @@ iframe {
     background-color: antiquewhite;
     width: 80vw;
     height: 85vw;
+    max-height: 85vw;
 }
 
 .jazz-button-container {
