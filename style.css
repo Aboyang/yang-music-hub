@@ -28,8 +28,8 @@ body {
 i {
     color: white;
     width: 100%;
-    height: 100%;
     align-items: center;
+    
 }
 
 img {
@@ -41,7 +41,7 @@ img {
 
 iframe {
     width: 90%;
-    height: 75%;
+    height: 70%;
     border: 0px;
     border-radius: 30px;
     pointer-events: none;
@@ -164,17 +164,17 @@ iframe {
 
     background-color: blanchedalmond;
     border: 0px;
-    border-radius: 25px;
+    border-radius: 30px;
 
     width: 90%;
-    height: 15%;
+    height: 20%;
 
 }
 
 .lofi-button {
     background-color: salmon;
     border: 0px;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 30%;
     height: 90%;
 }
