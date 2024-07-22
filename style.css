@@ -71,7 +71,6 @@ iframe {
     display: none;
     position: fixed;
     z-index: 1;
-    top: 0px;
     flex-direction: column;
     align-items: center; 
     width: 100%;
@@ -103,8 +102,8 @@ iframe {
     box-shadow: 0px 2px 100px 0px rgba(114, 113, 113, 0.75);
     padding: 5px;
     background-color: tan;
-    width: 460px;
-    height: 320px;
+    width: 80vw;
+    height: 60vw;
     animation-name: slide-down-2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -139,44 +138,47 @@ iframe {
 }
 
 .lofi-frame {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
     border: 0px;
     border-radius: 40px;
-    padding: 0px;
+    padding: 5px;
     background-color: tan;
     width: 80vw;
     height: 85vw;
-    max-height: 85vh;
-    gap: 5px;
+    max-height: 85vw;
 }
 
 .lofi-button-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 5px;
     padding: 10px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     box-sizing: border-box;
 
     background-color: blanchedalmond;
     border: 0px;
-    border-radius: 30px;
+    border-radius: 25px;
 
     width: 90%;
-    height: 20%;
+    height: 15%;
 
 }
 
 .lofi-button {
     background-color: salmon;
+    flex-grow: 1;
     border: 0px;
-    border-radius: 25px;
+    border-radius: 20px;
     width: 30%;
-    height: 90%;
+    height: 100%;
+
 }
 
 .jazz-centerer {
@@ -222,7 +224,7 @@ iframe {
     border-radius: 25px;
 
     width: 90%;
-    height: 20%;
+    height: 15%;
 
 }
 
@@ -239,7 +241,7 @@ iframe {
 .my-jazz {
     position: absolute;
     bottom: 100px;
-    left: 50px;
+    left: 200px;
     width: 300px;
     height: 200px;
 }
@@ -247,7 +249,7 @@ iframe {
 .my-jazz-two {
     position: absolute;
     bottom: 100px;
-    right: 30px;
+    right: 200px;
     width: 300px;
     height: 200px;
 }
@@ -522,7 +524,8 @@ select {
     background-color: salmon;
     border: 0px;
     border-radius: 30px;
-    width: 10%;
+    width: 15vw;
+    height: 15vw;
     position: absolute;
     bottom: 10px;
     left: 10px;
