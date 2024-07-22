@@ -183,6 +183,7 @@ iframe {
     display: flex;
     position: fixed;
     flex-direction: column;
+    justify-content: center;
     align-items: center; 
     gap: 30px;
     width: 100%;
@@ -193,7 +194,6 @@ iframe {
 
 .jazz-frame {
     position: relative;
-    top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,7 +222,7 @@ iframe {
     border-radius: 25px;
 
     width: 90%;
-    height: 70px;
+    height: 20%;
 
 }
 
@@ -232,7 +232,7 @@ iframe {
     border: 0px;
     border-radius: 20px;
     width: 30%;
-    height: 50px;
+    height: 100%;
 
 }
 
