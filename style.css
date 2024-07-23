@@ -29,7 +29,8 @@ i {
     color: white;
     width: 100%;
     align-items: center;
-    
+    padding: 10px;
+    box-sizing: border-box;    
 }
 
 img {
@@ -83,10 +84,7 @@ iframe {
     background-position: center;
 }
 
-@keyframes slide-down-2 {
-    from {top: -300px}
-    to {top: 20px}
-}
+
 
 .pomodoro-modal-content {
     position: relative;
@@ -167,7 +165,7 @@ iframe {
     border-radius: 25px;
 
     width: 90%;
-    height: 15%;
+    height: 20%;
 
 }
 
@@ -319,28 +317,11 @@ iframe {
     height: 100%;
     position: absolute;
     top: 0px;
-    left: -300px;
+    left: 0px;
     display: flex;
-    animation-name: slide-in-one;
-    animation-duration: 1.5s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
-    
+    animation-name: fly-in;
+    animation-duration: 1s;
 }
-
-@keyframes slide-in-one {
-    from {left: -300px;}
-    to {left: 0px;}
-}
-
-@keyframes appear {
-    from {opacity: 0}
-    to {opacity: 1}
-}
-
-
-
-
 
 .phrase {
     align-items: center;
@@ -396,7 +377,7 @@ li {
     padding: 5px;
     border: 0;
     border-radius: 15px;
-    width: 300px;
+    width: 70vw;
     color: white;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -478,10 +459,7 @@ select {
     
 }
 
-@keyframes slide-down {
-    from {top: -300px}
-    to {top: 120px}
-}
+
 
 .song-modal-content {
     position: relative;
@@ -523,11 +501,12 @@ select {
     background-color: salmon;
     border: 0px;
     border-radius: 30px;
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 10px;
+    
 }
 
 h3 {
@@ -547,9 +526,18 @@ h3 {
 }
 
 
+@keyframes slide-down {
+    from {top: -300px}
+    to {top: 120px}
+}
+
+@keyframes slide-down-2 {
+    from {top: -300px}
+    to {top: 20px}
+}
+
 @keyframes slide-down-3 {
     from {top: -300px;}
     to {top: 200px;}
 }
-
 
