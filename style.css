@@ -105,12 +105,9 @@ iframe {
 
 .pomodoro-button-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 5px;
+    padding: 0px;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
 
     background-color: blanchedalmond;
     border: 0px;
@@ -122,13 +119,10 @@ iframe {
 
 .pomodoro-button {
     background-color: salmon;
-    flex-grow: 1;
     border: 0px;
     border-radius: 15px;
     width: 45%;
-    height: 100%;
-    padding: 3%;
-    box-sizing: border-box;
+    margin: 2.5px;
 
 }
 
@@ -224,12 +218,9 @@ iframe {
 
 .song-button-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    padding: 5px;
+    padding: 0px;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
 
     background-color: blanchedalmond;
     border: 0px;
@@ -242,11 +233,10 @@ iframe {
 
 .song-button {
     background-color: salmon;
-    flex-grow: 1;
     border: 0px;
     border-radius: 20px;
     width: 30%;
-    height: 50px;
+    margin: 2.5px;
 }
 
 h2{
