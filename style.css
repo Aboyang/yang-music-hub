@@ -180,59 +180,10 @@ iframe {
 }
 
 
-
-
-.jazz-frame {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 0px;
-    border-radius: 40px;
-    padding: 5px;
-    background-color: tan;
-    width: 80vw;
-    height: 85vw;
-    max-height: 85vw;
-}
-
-.jazz-button-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-
-    background-color: blanchedalmond;
-    border: 0px;
-    border-radius: 25px;
-
-    width: 90%;
-    height: 20%;
-
-}
-
-.jazz-button {
-    background-color: salmon;
-    flex-grow: 1;
-    border: 0px;
-    border-radius: 20px;
-    width: 30%;
-    height: 100%;
-
-}
-
-
-
-
 .my-jazz {
     position: absolute;
     bottom: 10%;
-    left: 20%;
+    left: 30%;
     width: 20%;
     height: 10%;
 }
@@ -240,7 +191,7 @@ iframe {
 .my-jazz-two {
     position: absolute;
     bottom: 10%;
-    right: 20%;
+    right: 30%;
     width: 20%;
     height: 10%;
 }
