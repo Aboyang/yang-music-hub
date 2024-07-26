@@ -215,8 +215,8 @@ iframe {
     border-radius: 20px;
     padding: 2px;
     background-color: tan;
-    width: 600px;
-    height: 325px;
+    width: 90vw;
+    height: 50vw;
     animation-name: slide-down-2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
