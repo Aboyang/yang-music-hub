@@ -374,6 +374,8 @@ input {
 .create-album-button {
     border: 2px solid grey; 
     background-color: transparent;
+    width: 10%;
+    height: 20%;
 }
 
 select {
