@@ -349,6 +349,7 @@ span {
 button {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    font-size: 15px;;
     background-color: salmon;
     border: 0px;
     border-radius: 15px;
@@ -373,8 +374,6 @@ input {
 .create-album-button {
     border: 2px solid grey; 
     background-color: transparent;
-    width: 10%;
-    height: 20%;
 }
 
 select {
