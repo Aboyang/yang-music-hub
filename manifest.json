@@ -1,7 +1,7 @@
 {
     "name": "Yang Music Hub",
     "short_name": "Yang Music Hub",
-    "start_url": "main.html",
+    "start_url": "index.html",
     "scope": "./",
     "icons": [
       {
