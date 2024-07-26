@@ -484,12 +484,12 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     color: lightcoral; 
-    font-size: 30px;
     text-align: center;
     width: 100%;
+    position: absolute;
+    top: -40vh;
     animation-name: slide-down-3;
     animation-duration: 2s;
-    animation-fill-mode: forwards;
     animation-iteration-count: 2;
     animation-direction: alternate;
 
