@@ -376,6 +376,7 @@ input {
     background-color: transparent;
     width: 10%;
     height: 20%;
+    padding: 0px;
 }
 
 select {
@@ -489,6 +490,6 @@ h3 {
 
 @keyframes slide-down-3 {
     from {top: -40vh;}
-    to {top: 15vh;}
+    to {top: 30vh;}
 }
 
