@@ -122,7 +122,6 @@ iframe {
     border: 0px;
     border-radius: 15px;
     width: 45%;
-    height: 100%;
     margin: 2.5px;
 
 }
@@ -238,7 +237,7 @@ iframe {
     border: 0px;
     border-radius: 20px;
     width: 50%;
-    margin: 2.5px;
+    margin: 3px;
 }
 
 h2{
