@@ -215,6 +215,7 @@ iframe {
     animation-name: slide-down-2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    
 }
 
 .song-button-container {
@@ -228,7 +229,7 @@ iframe {
     border-radius: 25px;
 
     width: 90%;
-    height: 70px;
+    height: 20%;
 
 }
 
@@ -236,7 +237,7 @@ iframe {
     background-color: salmon;
     border: 0px;
     border-radius: 20px;
-    width: 30%;
+    width: 50%;
     margin: 2.5px;
 }
 
