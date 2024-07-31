@@ -97,7 +97,7 @@ iframe {
     padding: 5px;
     background-color: tan;
     width: 80vw;
-    height: 60vw;
+    height: 80vw;
     animation-name: slide-down-2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -237,7 +237,7 @@ iframe {
     border: 0px;
     border-radius: 20px;
     width: 50%;
-    margin: 10px;
+    margin: 5px;
 }
 
 h2{
